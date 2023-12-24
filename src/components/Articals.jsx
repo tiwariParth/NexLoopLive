@@ -13,7 +13,7 @@ const Articals = () => {
         and articles published on{" "}
         <snap className="text-green-500"> Nexloop.</snap>
       </p>
-      <div className="flex gap-10 mt-[1.7rem] mx-auto px-auto md:flex-row flex-col ">
+      <div className="flex gap-10 mt-[1.7rem] md:flex-row flex-col ">
         <div
           className="p-[10px] shadow-xl rounded-[30px] w-[367px] transition cursor-pointer hover:shadow-2xl"
           style={{
