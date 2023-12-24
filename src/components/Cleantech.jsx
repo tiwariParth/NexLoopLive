@@ -19,7 +19,7 @@ import logo12 from "../assets/svgtopng/partners/logo12.png";
 
 const Cleantech = () => {
   return (
-    <div className="flex justify-center items-center mx-3 my-3 flex-col gap-10 py-[20px]">
+    <div className="flex justify-center items-center md:mx-3 mx-7 my-3 flex-col gap-10 py-[20px]">
       <div className="text-center ">
         {" "}
         <h3 className="text-3xl mb-2 font-bold ">What is CleanTech?</h3>
@@ -29,22 +29,22 @@ const Cleantech = () => {
         </p>
       </div>
       <h3 className="text-3xl font-bold">Who is this for?</h3>
-      <ul className="flex gap-[1.6rem] md:mx-[250px] mx-[50px]">
-        <li className="flex flex-col justify-between text-center gap-5">
+      <ul className="flex md:flex-row flex-col md:gap-[1.2rem] gap-10 justify-between">
+        <li className="flex flex-col justify-between text-center gap-[1.2rem] w-[200px]">
           {" "}
-          <img src={img2} alt="cloud" />
+          <img src={img2} alt="cloud" className="h-[150px]" />
           <p>Enthusiasts</p>
         </li>
-        <li className="flex flex-col justify-between text-center gap-5">
-          <img src={img1} alt="laptop" />
+        <li className="flex flex-col justify-between text-center gap-5 w-[200px]">
+          <img src={img1} alt="laptop" className="h-[150px]" />
           <p>Professionals</p>
         </li>
-        <li className="flex flex-col justify-between text-center gap-5">
-          <img src={img3} alt="women" />
+        <li className="flex flex-col justify-between text-center gap-5 w-[200px]">
+          <img src={img3} alt="women" className="h-[150px]" />
           <p>Entrepreneurs</p>
         </li>
-        <li className="flex flex-col justify-between text-center gap-5">
-          <img src={img4} alt="women" />
+        <li className="flex flex-col justify-between text-center gap-5 w-[200px]">
+          <img src={img4} alt="women" className="h-[150px]" />
           <p>Students</p>
         </li>
       </ul>
