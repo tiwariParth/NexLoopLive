@@ -6,7 +6,7 @@ import avatar from "../assets/avatar.jpeg";
 
 const Articals = () => {
   return (
-    <div className="flex justify-center items-center text-center flex-col mt-[2rem] md:mx-auto mx-[20px]">
+    <div className="flex justify-center items-center text-center flex-col mt-[2rem] md:mx-auto mx-[120px]">
       <h1 className="text-center font-bold text-5xl">News & Articles</h1>
       <p className="mt-2 md:mx-[350px] mx-auto">
         Stay updated about EV industry by following the well researched blogs
