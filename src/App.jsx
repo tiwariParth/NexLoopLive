@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-clip">
       <div className="bg-[url('./assets/windmill.jpg')] bg-center bg-cover bg-no-repeat">
         <Navbar />
         <Hero />
