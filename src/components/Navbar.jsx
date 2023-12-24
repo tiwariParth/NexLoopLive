@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className=" flex sticky top-0 justify-between md:px-[120px] px-[30px] py-[24px] bg-gray-500 bg-opacity-50">
+    <div className=" flex fixed justify-between md:px-[120px] px-[30px] py-[24px] top-0 left-0 w-full z-10 bg-opacity-[0.6] bg-white">
       <img src={logo} alt="logo" className="w-[152px] p-2" />
       <div>
         <button

@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex justify-center items-center h-[100vh] top-6 ">
-      <div className="bg-gray-100 bg-opacity-60 flex flex-col gap-10 text-center rounded-2xl p-[60px] md:mx-[250px] mx-[150px]">
+    <div className="flex justify-center items-center ">
+      <div className="bg-gray-100 bg-opacity-60 flex flex-col gap-10 text-center md:rounded-2xl rounded-3xl md:p-[60px] p-[20px] md:mx-[350px] mx-[550px] my-[120px] ">
         {" "}
         <h1 className=" font-extrabold text-6xl">
           India's Most Passionate
